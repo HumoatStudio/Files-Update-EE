@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Files Update – Ecrous Engine</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1e1e1e;
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background: #2c2c2c;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 191, 255, 0.3);
+            transform: translateY(20px);
+            opacity: 0;
+            animation: fadeIn 1s forwards;
+        }
+        h1, h2 {
+            text-align: center;
+            color: #00bfff;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            background: #3a3a3a;
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 5px;
+            transition: transform 0.3s ease, background 0.3s ease;
+        }
+        li:hover {
+            background: #00bfff;
+            transform: scale(1.05);
+        }
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Files Update – 13.03.2025</h1>
+        <p>Обновление <b>Files Update</b> добавляет в <b>Ecrous Engine</b> расширенные возможности работы с файлами, включая систему сохранения и загрузки проектов.</p>
+        
+        <h2>Основные изменения:</h2>
+        <ul>
+            <li><b>Формат .ecr</b> – реализована первая версия формата <b>.ecr</b> для сохранения сцен и проектов.</li>
+            <li><b>Сохранение проекта</b> – добавлена горячая клавиша <b>Ctrl + S</b> для сохранения проекта.</li>
+            <li><b>Загрузка сцены</b> – теперь можно загружать сохранённые сцены из файлов.</li>
+            <li><b>Экспорт и импорт</b> – возможность экспорта проектов и их последующего импорта.</li>
+            <li><b>Файловая структура</b> – проекты хранятся в виде директорий с файлами ресурсов.</li>
+            <li><b>Обновлённый UI</b> – добавлены кнопки <b>"Сохранить"</b> и <b>"Открыть"</b> в интерфейсе редактора.</li>
+        </ul>
+        <p>Это обновление делает <b>Ecrous Engine</b> более удобным и гибким для работы с проектами, позволяя сохранять прогресс и продолжать разработку без потерь.</p>
+    </div>
+</body>
+</html>
